@@ -40,6 +40,10 @@ section {
     align-items: center!important;
 }
 
+.div{
+    padding-top: 65px!important;
+}
+
 html,
 body {
     margin: 0;

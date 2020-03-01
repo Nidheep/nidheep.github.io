@@ -29,7 +29,7 @@ $(document).ready(function () {
         console.log("Clicked menu");
         $("#mainListDiv").toggleClass("show_list");
         $("#mainListDiv").fadeIn();
-
+        setTimeout(function(){ window.scrollBy(0, -80); }, 01);
     });
     
     $("#wayanadBtn").click(function (){
